@@ -1,25 +1,43 @@
-# Python-Test
+# Python-Test Repository
 
-A simple number guessing game implemented in Python.
+This repository contains a simple Python number guessing game for testing purposes.
+
+## Description
+
+A basic console-based number guessing game where the user tries to guess a randomly generated number between 1 and 100. The game provides hints ("too high" or "too low") after each guess to help the user find the correct number.
+
+## Features
+
+- Random number generation between 1 and 100
+- Interactive console interface
+- Input validation for non-numeric input
+- Option to quit the game at any time
+- Two game modes:
+  - **Quick mode**: Play one game and exit (use `--quick` flag)
+  - **Interactive mode**: Choose to play multiple games
 
 ## How to Play
 
-1. Run the game: `python main.py`
-2. The game will generate a random number between 1 and 100
-3. Guess the number by entering your guess when prompted
-4. Get hints whether your guess is too high or too low
-5. Keep guessing until you find the correct number!
+1. Run the game: `python number_guessing_game.py`
+2. Enter your guess when prompted
+3. Get hints to help you guess the correct number
+4. Type 'q' to quit at any time
 
-## Game Features
+### Quick Play
 
-- Random number generation (1-100)
-- Input validation
-- Hint system (too high/too low)
-- Win/loss tracking
-- Play again option
+For a quick test, you can run:
+```bash
+python number_guessing_game.py --quick
+```
 
 ## Files
 
-- `main.py` - Main game logic
-- `requirements.txt` - Dependencies (if any)
-- `examples/` - Example gameplay sessions
+- `number_guessing_game.py` - The main game implementation
+
+## Requirements
+
+- Python 3.x
+
+## License
+
+This is a test repository for demonstration purposes.
