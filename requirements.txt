@@ -1,0 +1,8 @@
+# Python dependencies for Number Guessing Game
+
+# No external dependencies needed for this simple game
+# This file is included for future extensibility
+
+# Example of potential future dependencies:
+# requests>=2.25.0
+# numpy>=1.20.0
